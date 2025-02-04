@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: max(1.5rem);
+    /* background: url(https://img.freepik.com/premium-vector/dynamic-gradient-football-background_1226107-217.jpg?semt=ais_hybrid); */
+}
+
+@keyframes dialog {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    background-color: #E4D9FF;
+    width: 25rem;
+    height: 15rem;
+    color: #FAFAFF;
+}
+
+.setup {
+    background-color: #30343F;
+    width: 25rem;
+    height: 7.5rem;
+    color: #E4D9FF;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.delivery {
+    background-color: #E4D9FF;
+    width: 20rem;
+    height: 7.5rem;
+    color: #30343F;
+    opacity: 0;
+    animation: dialog 500ms ease-in 3s;
+    animation-fill-mode: forwards;
+    padding-left: 2rem;
+    /* padding-right: 2rem; */
+}
+.refreser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E4D9FF;
+    width: 3rem;
+    height: 3rem;
+    padding-top: 4.5rem;
+    color: #30343F;
+    cursor: pointer;
+}
+
+
+
